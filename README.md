@@ -36,8 +36,34 @@ This project focuses on creating a **beautiful, responsive UI** for flight and h
 
 ## 🛠️ Built With
 - [Flutter](https://flutter.dev/) – UI toolkit for building cross-platform apps  
-- [GetX](https://pub.dev/packages/get) – State management, navigation & dependency injection  
+- [GetX](https://pub.dev/packages/get) – State management, dependency injection  
 
 ---
 
 ## 📂 Project Structure
+
+lib/
+├── assets/
+│ ├── appUi/ # UI screenshots (for README showcase)
+│ ├── images/ # Images used inside the app
+│ └── screenshots/ # Extra screenshots
+│
+├── controller/ # GetX controllers
+│ ├── bottom_nav_bar_controller.dart
+│ └── expanded_text_controller.dart
+│
+├── res/
+│ ├── media/ # Media-related resources
+│ ├── reusable_widget # Common reusable widgets
+│ ├── styles/ # Styles and themes
+│ ├── utils/ # Utility classes/functions
+│ └── widget/ # Custom widgets
+│
+├── views/ # App UI Screens
+│ ├── home/
+│ ├── hotels/
+│ ├── profile/
+│ ├── searchscreen/
+│ └── tickets/
+│
+├── main.dart # Entry point of the app
