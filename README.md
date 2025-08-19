@@ -43,27 +43,27 @@ This project focuses on creating a **beautiful, responsive UI** for flight and h
 ## 📂 Project Structure
 
 lib/
-├── assets/
-│ ├── appUi/ # UI screenshots (for README showcase)
-│ ├── images/ # Images used inside the app
-│ └── screenshots/ # Extra screenshots
+├─ assets/
+│ ├─ appUi/ # UI screenshots (for README showcase)
+│ ├─ images/ # Images used inside the app
+│ └─ screenshots/ # Extra screenshots
 │
-├── controller/ # GetX controllers
-│ ├── bottom_nav_bar_controller.dart
-│ └── expanded_text_controller.dart
+├─ controller/ # GetX controllers
+│ ├─ bottom_nav_bar_controller.dart
+│ └─ expanded_text_controller.dart
 │
-├── res/
-│ ├── media/ # Media-related resources
-│ ├── reusable_widget # Common reusable widgets
-│ ├── styles/ # Styles and themes
-│ ├── utils/ # Utility classes/functions
-│ └── widget/ # Custom widgets
+├─ res/
+│ ├─ media/ # Media-related resources
+│ ├─ reusable_widget # Common reusable widgets
+│ ├─ styles/ # Styles and themes
+│ ├─ utils/ # Utility classes/functions
+│ └─ widget/ # Custom widgets
 │
-├── views/ # App UI Screens
-│ ├── home/
-│ ├── hotels/
-│ ├── profile/
-│ ├── searchscreen/
-│ └── tickets/
+├─ views/ # App UI Screens
+│ ├─ home/
+│ ├─ hotels/
+│ ├─ profile/
+│ ├─ searchscreen/
+│ └─ tickets/
 │
-├── main.dart # Entry point of the app
+└─ main.dart # Entry point of the app
